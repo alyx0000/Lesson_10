@@ -1,0 +1,227 @@
+body{
+    font-family: 'Poppins';
+}
+/* section 1 */
+.sec-1{
+    max-width: 1088px;
+    width: 95%;
+    margin: 0 auto;
+}
+.sec-1 h4{
+    font-weight: 600;
+    font-size: 0.8rem;
+    color: #5863F8;
+    text-transform: uppercase;
+    margin: 4em 0 0.96em;
+}
+.sec-1 h2{
+    max-width: 378px;
+    width: 100%;
+    font-weight: 900;
+    font-size: 2.6rem;
+    color: #000000;
+    margin-bottom: 1.8em;
+}
+.form{
+    display: flex;
+    justify-content: space-between;
+}
+.frm-lft{
+    max-width: 720px;
+    width: 100%;
+    display: flex;
+}
+.txt-area{
+    width: 100%;
+    height: 288px;
+    background-color: #F8F8F8;
+    color:black;
+    padding: 1em 0 0 1.4em;
+    font-family: 'Poppins';
+    resize: none;
+    border: 2px solid #E8E8E8;
+}
+.txt-area:focus{
+    outline: none;
+}
+.frm-rght{
+    max-width: 352px;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+}
+input[type='text'],
+input[type='email']{
+    height: 60px;
+    padding-left: 20px;
+    font-family: 'Poppins';
+    background-color: #F8F8F8;
+    margin-bottom: 16px;
+    border-color: #E8E8E8;
+    border: 2px solid #E8E8E8;
+}
+.frm-rght button{
+    display: flex;
+    height: 60px;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    background-color: #5863F8;
+    font-family: 'Poppins';
+    border: none;
+}
+.contact{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 50px;
+}
+.cntc-box{
+    max-width: 362px;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.cntc-box i{
+    width: 59px;
+    height: 58px;
+    border-radius: 50%;
+    color: white;
+    background-color: #5863F8;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.cntc-box h5{
+    font-weight: 600;
+    font-size: 18px;
+    margin: 15px 0 5px;
+}
+.cntc-box span{
+    font-weight: 400;
+    font-size: 14px;
+    color: #B1B1B1;
+    line-height: 1.4;
+}
+/* section 1 end */
+/* section 2 */
+.sec-2{
+    max-width: 1088px;
+    width: 95%;
+    margin: 0 auto;
+}
+.sec-2 h4{
+    font-weight: 600;
+    font-size: 0.8rem;
+    color: #5863F8;
+    text-transform: uppercase;
+    margin: 10em 0 0.96em;
+}
+.sec-2 h2{
+    max-width: 565px;
+    width: 100%;
+    font-weight: 900;
+    font-size: 2.6rem;
+    color: #000000;
+    margin-bottom: 1.8em;
+}
+.sec-2-img{
+    max-width: 1261px;
+    width: 95%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+}
+.img-box{
+    max-width: 352px;
+    width: 100%;
+}
+.img-box img{
+    width: 100%;
+}
+.mrgn{
+    margin: 0 15px;
+}
+/* section 2 end */
+/* footer */
+footer{
+    background-color: #121212;
+    padding: 90px 0 114px;
+    margin-top: 0.5em;
+}
+.ftr-wrp{
+    max-width: 1026px;
+    width: 95%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    vertical-align: top;
+}
+.ftr-lft{
+    max-width: 260px;
+    width: 100%;
+}
+.ftr-lft h3{
+    font: 600 24px 'Poppins';
+    color: #FFFFFF;
+}
+.ftr-lft p{
+    font: 500 14px 'Poppins';
+    color: #B1B1B1;
+    margin: 2em 0;
+}
+.ftr-i{
+    display: flex;
+}
+.ftr-i a{
+    width: 35px;
+    height: 35px;
+    border-radius: 50%;
+    color: white;
+    background-color: #3B5998;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.ftr-i a:nth-child(1){
+    background-color: #3B5998;
+}
+.ftr-i a:nth-child(2){
+    background-color: #55ACEE;
+    margin: 0 10px;
+}
+.ftr-i a:nth-child(3){
+    background-color: #DC4E41;
+}
+.ftr-rght{
+    max-width: 572px;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+.ftr-rght h6{
+    font-size: 1rem;
+    font-weight: 600;
+    color: #FFFFFF;
+    margin-bottom: 2em;
+}
+.ftr-rght a{
+    font-size: 0.9rem;
+    font-weight: 500;
+    color: #5863F8;
+    line-height: 2;
+}
+.cntct-info li{
+    color: white;
+    font-weight: 500;
+    font-size: 0.9rem;
+    line-height: 2.5;
+}
+.cntct-info i{
+    color: #5863F8;
+    font-size: 1.2rem;
+    vertical-align: middle;
+    letter-spacing: 6px;
+}
+
+
