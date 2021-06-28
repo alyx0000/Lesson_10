@@ -1,0 +1,22 @@
+@media (max-width: 1024px){
+    html{
+        font-size: 14px;
+    }
+}
+@media (max-width: 768px){
+    html{
+        font-size: 13px;
+    }
+    /* .sec-1-h h2{
+        font-size: 2rem;
+    }
+   .form{
+       display: flex;
+       flex-direction: column;
+   }
+   .txt-area{
+       height: 10em;
+       margin-bottom: 1em;
+   } */
+   
+}

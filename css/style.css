@@ -7,14 +7,14 @@ body{
     width: 95%;
     margin: 0 auto;
 }
-.sec-1 h4{
+.sec-1-h h4{
     font-weight: 600;
     font-size: 0.8rem;
     color: #5863F8;
     text-transform: uppercase;
     margin: 4em 0 0.96em;
 }
-.sec-1 h2{
+.sec-1-h h2{
     max-width: 378px;
     width: 100%;
     font-weight: 900;
@@ -30,6 +30,7 @@ body{
     max-width: 720px;
     width: 100%;
     display: flex;
+    margin-right: 0.7em;
 }
 .txt-area{
     width: 100%;
@@ -52,11 +53,10 @@ body{
 }
 input[type='text'],
 input[type='email']{
-    height: 60px;
-    padding-left: 20px;
+    padding: 1.44em 0 1.44em 1.2em;
     font-family: 'Poppins';
     background-color: #F8F8F8;
-    margin-bottom: 16px;
+    margin-bottom: 1em;
     border-color: #E8E8E8;
     border: 2px solid #E8E8E8;
 }
@@ -69,11 +69,16 @@ input[type='email']{
     background-color: #5863F8;
     font-family: 'Poppins';
     border: none;
+    transition: 0.3s;
+}
+.frm-rght button:hover{
+    opacity: 95%;
+    color: #000000;
 }
 .contact{
     display: flex;
     justify-content: space-between;
-    margin-top: 50px;
+    margin-top: 4em;
 }
 .cntc-box{
     max-width: 362px;
@@ -83,8 +88,8 @@ input[type='email']{
     align-items: center;
 }
 .cntc-box i{
-    width: 59px;
-    height: 58px;
+    width: 3.6em;
+    height: 3.6em;
     border-radius: 50%;
     color: white;
     background-color: #5863F8;
@@ -94,13 +99,14 @@ input[type='email']{
 }
 .cntc-box h5{
     font-weight: 600;
-    font-size: 18px;
-    margin: 15px 0 5px;
+    font-size: 1.02rem;
+    margin: 1em 0 0.3em;
 }
 .cntc-box span{
     font-weight: 400;
-    font-size: 14px;
+    font-size: 0.8rem;
     color: #B1B1B1;
+    letter-spacing: 0.2;
     line-height: 1.4;
 }
 /* section 1 end */
@@ -140,13 +146,13 @@ input[type='email']{
     width: 100%;
 }
 .mrgn{
-    margin: 0 15px;
+    margin: 0 1em;
 }
 /* section 2 end */
 /* footer */
 footer{
     background-color: #121212;
-    padding: 90px 0 114px;
+    padding: 5.6em 0 7.1em;
     margin-top: 0.5em;
 }
 .ftr-wrp{
@@ -160,13 +166,14 @@ footer{
 .ftr-lft{
     max-width: 260px;
     width: 100%;
+    margin-right: 2em;
 }
 .ftr-lft h3{
-    font: 600 24px 'Poppins';
+    font: 600 1.5rem 'Poppins';
     color: #FFFFFF;
 }
 .ftr-lft p{
-    font: 500 14px 'Poppins';
+    font: 500 0.9rem 'Poppins';
     color: #B1B1B1;
     margin: 2em 0;
 }
@@ -188,7 +195,7 @@ footer{
 }
 .ftr-i a:nth-child(2){
     background-color: #55ACEE;
-    margin: 0 10px;
+    margin: 0 0.8em;
 }
 .ftr-i a:nth-child(3){
     background-color: #DC4E41;
@@ -210,6 +217,7 @@ footer{
     font-weight: 500;
     color: #5863F8;
     line-height: 2;
+    transition: 0.3;
 }
 .cntct-info li{
     color: white;
@@ -221,7 +229,11 @@ footer{
     color: #5863F8;
     font-size: 1.2rem;
     vertical-align: middle;
-    letter-spacing: 6px;
+    letter-spacing: 0.3em;
+}
+.ftr-rght a:hover{
+    color: white;
+    /* opacity: 50%; */
 }
 
 
