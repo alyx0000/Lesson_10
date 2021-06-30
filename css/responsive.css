@@ -7,8 +7,63 @@
     html{
         font-size: 13px;
     }
-    /* .sec-1-h h2{
+    .sec-1-h{
+        align-items: center;
+    }
+    .sec-1-h h4{
+        letter-spacing: 5px;
+    }
+    .sec-1-h h2{
+        opacity: 90%;
         font-size: 2rem;
+        letter-spacing: 2px;
+        line-height: 1.2;
+    }
+   .sec-2{
+       align-items: center;
+   }
+   .sec-2 h4, h2{
+       text-align: center;
+   }
+   .sec-2 h4{
+       letter-spacing: 5px;
+       margin-bottom: 2.3em;
+   }
+   .sec-2 h2{
+        opacity: 90%;
+        font-size: 2rem;
+        letter-spacing: 2px;
+        line-height: 1.2;
+        margin-bottom: 0.9em;
+   }
+   .ftr-lft{
+        text-align: center;
+        margin-bottom: 4em;
+   }
+   .ftr-wrp{
+        flex-wrap: wrap;
+        justify-content: center;
+        align-items: center;
+   }
+   .ftr-i{
+        justify-content: center;
+   }
+   .ftr-rght{
+        flex-wrap: wrap;
+        justify-content: center;
+        align-items: center;
+   }
+    footer{
+        padding: 5.5em 0 6em;
+    }
+    .resp-ftr{
+        max-width: 200px;
+    }
+}
+@media(max-width: 520px){
+    html{
+        font-size: 12px;
+        letter-spacing: 0.5px;
     }
    .form{
        display: flex;
@@ -17,6 +72,48 @@
    .txt-area{
        height: 10em;
        margin-bottom: 1em;
-   } */
-   
+   }
+   .frm-rght{
+        max-width: 500px;
+        width: 100%;
+   }
+   .contact{
+       flex-direction: column;
+       align-items: center;
+   }
+   .contact div:nth-child(n+2) {
+       margin-top: 2em;
+   }
+   .sec-2-img{
+       flex-wrap: wrap;
+       justify-content: center;
+   }
+   .mrgn{
+       margin: 0;
+   }
+   .sec-2-img div:nth-child(n+1){
+       margin: 1.5em 0;
+   }
+   .sec-1-h h2{
+        font-size: 1.7rem;
+    }
+    .sec-2 h2{
+        font-size: 1.7rem;
+    }
+    .ftr-lft{
+        margin-right: 0;
+    }
+}
+@media(max-width: 452px){
+    .resp-ftr{
+        max-width: 250px;
+        margin-right: 0;
+    }
+    .resp-ftr h6{
+        margin-bottom: 1em;
+    }
+    .cntct-info h6{
+        text-align: center;
+        margin: 2.5em 0 1em;
+    }
 }
