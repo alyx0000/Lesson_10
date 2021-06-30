@@ -1,3 +1,10 @@
+/*
+* Prefixed by https://autoprefixer.github.io
+* PostCSS: v7.0.29,
+* Autoprefixer: v9.7.6
+* Browsers: last 4 version
+*/
+
 body{
     font-family: 'Poppins';
 }
@@ -8,9 +15,16 @@ body{
     margin: 0 auto;
 }
 .sec-1-h{
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
-    flex-direction: column;
-    align-items: flex-start;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-align: start;
+        -ms-flex-align: start;
+            align-items: flex-start;
 }
 .sec-1-h h4{
     font-weight: 600;
@@ -28,12 +42,18 @@ body{
     margin-bottom: 1.8em;
 }
 .form{
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
-    justify-content: space-between;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
 }
 .frm-lft{
     max-width: 720px;
     width: 100%;
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
     margin-right: 0.7em;
 }
@@ -53,8 +73,13 @@ body{
 .frm-rght{
     max-width: 352px;
     width: 100%;
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
-    flex-direction: column;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
 }
 input[type='text'],
 input[type='email']{
@@ -66,14 +91,22 @@ input[type='email']{
     border: 2px solid #E8E8E8;
 }
 .frm-rght button{
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
     height: 60px;
-    align-items: center;
-    justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
     color: white;
     background-color: #5863F8;
     font-family: 'Poppins';
     border: none;
+    -webkit-transition: 0.3s;
+    -o-transition: 0.3s;
     transition: 0.3s;
 }
 .frm-rght button:hover{
@@ -81,16 +114,27 @@ input[type='email']{
     color: #000000;
 }
 .contact{
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
-    justify-content: space-between;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
     margin-top: 4em;
 }
 .cntc-box{
     max-width: 362px;
     width: 100%;
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
-    flex-direction: column;
-    align-items: center;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
 }
 .cntc-box i{
     width: 3.6em;
@@ -98,9 +142,15 @@ input[type='email']{
     border-radius: 50%;
     color: white;
     background-color: #5863F8;
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
-    align-items: center;
-    justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
 }
 .cntc-box h5{
     font-weight: 600;
@@ -120,9 +170,16 @@ input[type='email']{
     max-width: 1088px;
     width: 95%;
     margin: 0 auto;
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
-    flex-direction: column;
-    align-items: flex-start;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-align: start;
+        -ms-flex-align: start;
+            align-items: flex-start;
 }
 .sec-2 h4{
     font-weight: 600;
@@ -143,8 +200,12 @@ input[type='email']{
     max-width: 1261px;
     width: 95%;
     margin: 0 auto;
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
-    justify-content: space-between;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
 }
 .img-box{
     max-width: 352px;
@@ -167,8 +228,12 @@ footer{
     max-width: 1026px;
     width: 95%;
     margin: 0 auto;
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
-    justify-content: space-between;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
     vertical-align: top;
 }
 .ftr-lft{
@@ -186,6 +251,8 @@ footer{
     margin: 2em 0;
 }
 .ftr-i{
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
 }
 .ftr-i a{
@@ -194,9 +261,15 @@ footer{
     border-radius: 50%;
     color: white;
     background-color: #3B5998;
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
-    align-items: center;
-    justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
 }
 .ftr-i a:nth-child(1){
     background-color: #3B5998;
@@ -211,8 +284,12 @@ footer{
 .ftr-rght{
     max-width: 572px;
     width: 100%;
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
-    justify-content: space-between;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
 }
 .ftr-rght h6{
     font-size: 1rem;
@@ -225,6 +302,8 @@ footer{
     font-weight: 500;
     color: #5863F8;
     line-height: 2;
+    -webkit-transition: 0.3;
+    -o-transition: 0.3;
     transition: 0.3;
 }
 .cntct-info li{
@@ -244,6 +323,8 @@ footer{
     /* opacity: 50%; */
 }
 .cntct-info-2{
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
 }
 .cntct-info-2 ul:nth-child(1){
@@ -253,10 +334,13 @@ footer{
 .resp-ftr{
     max-width: 260px;
     width: 100%;
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
-    justify-content: space-between;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
     margin-right: 4em;
 }
-
 
 

@@ -1,3 +1,10 @@
+/*
+* Prefixed by https://autoprefixer.github.io
+* PostCSS: v7.0.29,
+* Autoprefixer: v9.7.6
+* Browsers: last 4 version
+*/
+
 @media (max-width: 1024px){
     html{
         font-size: 14px;
@@ -8,7 +15,9 @@
         font-size: 13px;
     }
     .sec-1-h{
-        align-items: center;
+        -webkit-box-align: center;
+            -ms-flex-align: center;
+                align-items: center;
     }
     .sec-1-h h4{
         letter-spacing: 5px;
@@ -20,7 +29,9 @@
         line-height: 1.2;
     }
    .sec-2{
-       align-items: center;
+       -webkit-box-align: center;
+           -ms-flex-align: center;
+               align-items: center;
    }
    .sec-2 h4, h2{
        text-align: center;
@@ -41,17 +52,29 @@
         margin-bottom: 4em;
    }
    .ftr-wrp{
-        flex-wrap: wrap;
-        justify-content: center;
-        align-items: center;
+        -ms-flex-wrap: wrap;
+            flex-wrap: wrap;
+        -webkit-box-pack: center;
+            -ms-flex-pack: center;
+                justify-content: center;
+        -webkit-box-align: center;
+            -ms-flex-align: center;
+                align-items: center;
    }
    .ftr-i{
-        justify-content: center;
+        -webkit-box-pack: center;
+            -ms-flex-pack: center;
+                justify-content: center;
    }
    .ftr-rght{
-        flex-wrap: wrap;
-        justify-content: center;
-        align-items: center;
+        -ms-flex-wrap: wrap;
+            flex-wrap: wrap;
+        -webkit-box-pack: center;
+            -ms-flex-pack: center;
+                justify-content: center;
+        -webkit-box-align: center;
+            -ms-flex-align: center;
+                align-items: center;
    }
     footer{
         padding: 5.5em 0 6em;
@@ -66,8 +89,13 @@
         letter-spacing: 0.5px;
     }
    .form{
+       display: -webkit-box;
+       display: -ms-flexbox;
        display: flex;
-       flex-direction: column;
+       -webkit-box-orient: vertical;
+       -webkit-box-direction: normal;
+           -ms-flex-direction: column;
+               flex-direction: column;
    }
    .txt-area{
        height: 10em;
@@ -78,15 +106,23 @@
         width: 100%;
    }
    .contact{
-       flex-direction: column;
-       align-items: center;
+       -webkit-box-orient: vertical;
+       -webkit-box-direction: normal;
+           -ms-flex-direction: column;
+               flex-direction: column;
+       -webkit-box-align: center;
+           -ms-flex-align: center;
+               align-items: center;
    }
    .contact div:nth-child(n+2) {
        margin-top: 2em;
    }
    .sec-2-img{
-       flex-wrap: wrap;
-       justify-content: center;
+       -ms-flex-wrap: wrap;
+           flex-wrap: wrap;
+       -webkit-box-pack: center;
+           -ms-flex-pack: center;
+               justify-content: center;
    }
    .mrgn{
        margin: 0;
